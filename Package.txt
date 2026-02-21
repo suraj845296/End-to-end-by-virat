@@ -1,0 +1,5 @@
+Python 3.10+
+Streamlit Dashboard
+SQLite Database
+Background Thread Worker
+24/7 Deployment Compatible
