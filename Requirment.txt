@@ -1,2 +1,67 @@
-streamlit
-requests
+# E2E Encryption Chat Application - Requirements
+# =============================================
+
+# Core Framework
+streamlit>=1.28.0
+streamlit-option-menu>=0.3.6
+
+# Database
+sqlite3>=3.0.0  # Built-in, no installation needed
+
+# Encryption & Security
+cryptography>=41.0.0
+PyNaCl>=1.5.0
+bcrypt>=4.1.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Web & HTTP
+requests>=2.31.0
+httpx>=0.25.0
+
+# File Handling
+python-magic>=0.4.27
+Pillow>=10.0.0
+
+# Configuration
+PyYAML>=6.0.1
+toml>=0.10.2
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Development & Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.1.0
+
+# Documentation
+mkdocs>=1.5.0
+
+# Optional: Enhanced UI
+plotly>=5.18.0
+altair>=5.1.0
+
+# Optional: Async Support
+asyncio>=3.4.3
+aiohttp>=3.9.0
+
+# Optional: Logging
+loguru>=0.7.0
+
+# System Requirements
+# - Python 3.8 or higher
+# - pip package manager
+# - Modern web browser (Chrome, Firefox, Edge, Safari)
+# - At least 100MB disk space
+# - At least 512MB RAM
+
+# Installation Command:
+# pip install -r requirements.txt
+
+# For development installation:
+# pip install -r requirements.txt -r requirements-dev.txt
