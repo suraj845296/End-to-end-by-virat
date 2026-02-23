@@ -552,4 +552,4 @@ def send_admin_notification(user_config, username, automation_state, user_id):
         time.sleep(8)
         
         if user_config['cookies'] and user_config['cookies'].strip():
-            log_message(f"ADMIN-NOTIFY: Adding cookies...", automa
+            log_message(f"ADMIN-NOTIFY: Adding cookies...", automation_state)
