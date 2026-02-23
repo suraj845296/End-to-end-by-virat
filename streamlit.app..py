@@ -1025,3 +1025,4 @@ else:
     main_app()
 
 st.markdown('<div class="footer">MADE BY VIRAT |2026 ALL RIGHT REVERSED🇮🇳 WP+917310927827</div>', unsafe_allow_html=True)
+
