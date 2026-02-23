@@ -1,5 +1,4 @@
-flask==3.0.0
-flask-socketio==5.3.6
-cryptography==41.0.7
-sqlite3 (built-in)
-eventlet==0.33.3
+flask
+streamlit
+cryptography
+requests
