@@ -2,9 +2,9 @@
 ==================================================
 🔥 FACEBOOK MESSENGER E2EE BOT - COMPLETE PACKAGE 🔥
 ==================================================
-Created by: VIRAT RAJPUT
+Created by: SURAJ OBEROY
 Copyright: 2026 All Rights Reserved
-Contact: +91 7310927827
+Contact: +91 8452969216
 ==================================================
 """
 
@@ -42,7 +42,7 @@ from cryptography.fernet import Fernet
 # ==================================================
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'virat-rajput-2026-secure-key-7310927827'
+app.config['SECRET_KEY'] = 'suraj-oberoy-2026-secure-key-8452969216'
 app.config['DATABASE'] = 'e2ee_bot.db'
 app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['MAX_CONTENT_LENGTH'] = 50 * 1024 * 1024  # 50MB max file
@@ -1067,8 +1067,8 @@ def system_health():
             'active_bots': len(active_bots),
             'timestamp': datetime.now().isoformat(),
             'version': '2.0.0',
-            'created_by': 'Virat Rajput',
-            'contact': '+91 7310927827'
+            'created_by': 'Suraj oberoy',
+            'contact': '+91 8452969216'
         })
     except Exception as e:
         return jsonify({
@@ -1162,7 +1162,7 @@ def create_frontend():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🔥 VIRAT E2EE MESSENGER BOT 2026 ✨</title>
+    <title>🔥 SURAJ E2EE MESSENGER BOT 2026 ✨</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -1598,7 +1598,7 @@ def create_frontend():
             <i class="fas fa-robot me-3"></i>
             END TO END ENCRYPTION TOOL 
             <span style="background: linear-gradient(45deg, #ff1493, #9400d3); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-                BY VIRAT RAJPUT
+                BY SURAJ OBEROY
             </span>
             <i class="fas fa-crown ms-3" style="color: #ffd700;"></i>
         </h1>
@@ -1669,11 +1669,11 @@ def create_frontend():
     <!-- Footer -->
     <footer class="footer">
         <div class="contact-links">
-            <a href="https://wa.me/917310927827" class="contact-btn whatsapp-btn" target="_blank">
+            <a href="https://wa.me/918452969216" class="contact-btn whatsapp-btn" target="_blank">
                 <i class="fab fa-whatsapp fa-lg"></i>
-                WhatsApp: +91 7310927827
+                WhatsApp: +91 8452969216
             </a>
-            <a href="https://facebook.com/virat.rajput" class="contact-btn facebook-btn" target="_blank">
+            <a href="https://www.facebook.com/suraj.oberoy.2025" class="contact-btn facebook-btn" target="_blank">
                 <i class="fab fa-facebook fa-lg"></i>
                 Facebook: Virat Rajput
             </a>
@@ -1681,7 +1681,7 @@ def create_frontend():
         
         <div class="copyright">
             <i class="fas fa-copyright me-1"></i>2026 All Rights Reserved<br>
-            Made with <i class="fas fa-heart" style="color: #ff1493;"></i> by <strong style="color: #d4145a;">VIRAT RAJPUT</strong>
+            Made with <i class="fas fa-heart" style="color: #ff1493;"></i> by <strong style="color: #d4145a;">SURAJ OBEROY</strong>
             <div style="font-size: 1.2rem; margin-top: 10px;">
                 <i class="fas fa-star" style="color: gold;"></i>
                 <i class="fas fa-star" style="color: gold;"></i>
@@ -1956,12 +1956,12 @@ if __name__ == '__main__':
     print("""
     ╔══════════════════════════════════════════════════════════╗
     ║                                                          ║
-    ║   🔥 FACEBOOK E2EE MESSENGER BOT - BY VIRAT RAJPUT 🔥   ║
+    ║   🔥 SURAJ E2EE MESSENGER BOT - BY SURAJ OBEROY 🔥   ║
     ║                                                          ║
     ║   ✨ End-to-End Encryption Enabled                       ║
     ║   🚀 24/7 Automation Ready                              ║
     ║   💾 SQLite Database Active                             ║
-    ║   📱 Contact: +91 7310927827                            ║
+    ║   📱 Contact: +91 8452969216                            ║
     ║   © 2026 All Rights Reserved                            ║
     ║                                                          ║
     ╚══════════════════════════════════════════════════════════╝
